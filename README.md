@@ -5,3 +5,5 @@ Gamification des commandes de base Linux. MasterLin est un jeu de quiz interacti
 Chaque joueur possède un compte sécurisé dont le mot de passe est haché. Sa progression est sauvegardée dans un répertoire privé protégé pour qu'aucun autre utilisateur ne puisse y accéder, les questions sont tirées aléatoirement depuis des bases de données en fichiers texte, et on y trouvera un historique horodaté avec date enregistre toutes les performances.
 
 Et il y aura un mode multijoueur (duel ou assistance d'un ami) et un pseudo interface graphique.
+
+Chaque mode et fonctionalités feront du projet un 100% Linux car il exploite le système d'exploitation en mélangeant les notions de réseaux, de processus, automatissation et scripting bash (genre DevOps), permissions et droits, authentification ssh.
