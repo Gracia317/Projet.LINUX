@@ -526,12 +526,12 @@ resultat()
     
 	if [ "$ancien" != "verrou" ] && [ "$ancien" -ge "$ratio" ] 2>/dev/null; then
         	echo ""
-        	echo "📊 Meilleur score conservé : ${ancien}% (actuel : ${ratio}%)"
+        	echo "Meilleur score conservé : ${ancien}% (actuel : ${ratio}%)"
 	else
         	# Nouveau meilleur score => sauvegarder
         	sauver_score "$repere" "$niveau_affiche" "$ratio"
         	echo ""
-        	echo "📊 Nouveau meilleur score : ${ratio}%"
+        	echo "Nouveau meilleur score : ${ratio}%"
         fi
         
     #deblocage niveau suivant raha mahatratra ny seuil ou min=60%    
